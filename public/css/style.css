@@ -1,0 +1,90 @@
+/* Gerais */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-index {
+    padding:0;
+}
+
+.container {
+    padding: 10px 0;
+    height: 4vh;
+}
+
+p, li {
+    color: #444;
+    font-size: 15px;
+}
+
+.form-control:focus {
+    border-color: #fff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+
+/* Barra de Navegação */
+
+header, .navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color:#fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+#pesquisa {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border: 1px solid #65DAF9;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#pesquisa-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #65DAF9;
+    background-color: #65DAF9;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: 350px;
+    position: absolute;
+    transition: .5s;
+}
+
+#form-funcionario {
+    margin-top: 60px;
+}
