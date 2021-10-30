@@ -50,17 +50,6 @@
                     <input type="text" name="observacao" class="form-control">
                 </div>
 
-                {{-- <div class="form-group col-md-8">
-                    <label for="">Administrador</label>
-                    <select class="custom-select" name="administrador_id">
-                        @foreach ($administrador as $adm)
-                            <option>                            
-                                {{ $adm->id }} - {{ $adm->name }}                            
-                            </option>
-                        @endforeach
-                    </select>                    
-                </div> --}}
-
                 <div class="form-group col-md-8">
                     <button class="btn btn-success">Cadastrar</button>
                 </div>
