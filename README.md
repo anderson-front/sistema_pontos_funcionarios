@@ -106,7 +106,8 @@ E um super Obrigado a Nano Incub pela iniciativa e pelo tempo que disponibilizou
 ## 📝 Licença
 
 
-Replicado com ❤️ por Anderson Santos, Feito por Thiago Marinho 
+Replicado com ❤️ por Anderson Santos, Feito por Thiago Marinho.
+
 👋🏽 [Entre em contato!](https://www.linkedin.com/in/anderson-santos-dev-front-back/)
 
 ---
