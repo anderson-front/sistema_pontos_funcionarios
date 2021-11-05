@@ -51,8 +51,9 @@ Projeto desenvolvido no prazo estipulado de uma semana.
 
 ## 🎨 Layout
 
-O layout se encontra muito simples foi feito uso do boostrap 4.0:
+O layout se encontra muito simples foi feito uso do boostrap 4.0, segue alguns exemplos:
 [![login.png](https://i.postimg.cc/fy36wpXM/login.png)](https://postimg.cc/D4TC6CBN)
+[![Funcionarios.png](https://i.postimg.cc/RCDWXtZt/Funcionarios.png)](https://postimg.cc/Wt0p4hrp)
 ---
 
 ## 🚀 Como executar o projeto
