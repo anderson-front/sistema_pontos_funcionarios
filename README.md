@@ -1,18 +1,13 @@
 
 
 <h1 align="center">
-      Projeto Crud Escola
+      Projeto Sistema de Pontos de Funcionários
 </h1>
 
 <h3 align="center">
-    🌱 Este é meu primeiro projeto feito a pedido de uma empresa para uma entrevista
+    🌱 Segundo projeto para entrevista.
 </h3>
 
-
-
-<h4 align="center">
-	🚧   Incompleto 🚀 🚧
-</h4>
 
 Tabela de conteúdos
 =================
@@ -32,7 +27,7 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
- Trata-se se um simples crud em php e laravel a fim de evidenciar o nível de conhecimento do programador.
+ Trata-se se um sistema feito em php e laravel a fim de evidenciar o nível de conhecimento do programador.
 
 
 Projeto desenvolvido no prazo estipulado de uma semana.
@@ -41,16 +36,16 @@ Projeto desenvolvido no prazo estipulado de uma semana.
 
 ## ⚙️ Funcionalidades
 
-- [x] Cadastro de Escola, edição, exclusão e consulta:
-  - [x] Cadastro de Alunos, edição, exclusão e consulta:
-  - [x] Cadastro de Turmas, edição, exclusão e consulta:
-  - [x] Cadastro de Matricula: 
-    - Incompleto layout responsivo
-    - Incompleto criação de Seeds e Factorys como solicitado
-    - Incompleto totalizador de alunos na escola
-    - Não foi usado js no projeto
-    - Não foi usado Vue no projeto
-    - Não foi usado API Rest JSON para os CRUDS.
+- [x] 1 - Autenticação 1.1. Login - Página de Login com campo usuário e senha. Não tem opção de redefinir senha para este MVP.
+  - [x] 2.1. Listagem de funcionários - Listagem dos funcionários exibindo o ID, Nome, Saldo atual, Data de criação.
+  - [x] 2.2. Paginação e filtro de funcionários.
+  - [x] 2.3. Visualizar extrato do funcionário.
+  - [x] 2.4. Cadastro de funcionários.
+  - [x] 2.6. Excluir funcionário.
+  - [x] 3.1. Listagem de movimentações.
+  - [x] 3.2. Paginação e filtro de movimentações.
+  - [x] 3.3. Cadastro de movimentações.
+
 
 ---
 
@@ -62,11 +57,12 @@ O layout se encontra muito simples foi feito uso do boostrap 4.0:
 
 ## 🚀 Como executar o projeto
 
-Este projeto é divido em três rotas principais:
+Este projeto deve ser iniciado na seguinte rota:
 
-escola/novo,
-turma/novo,
-aluno/novo
+http://127.0.0.1:8000
+
+Comando no terminal para isso:
+php artisan serve
 
 
 💡 Não foi usado resource para a criação das rotas.
@@ -79,12 +75,12 @@ Usei o seguinte editor para trabalhar  [VSCode](https://code.visualstudio.com/)
 
 ```
 # Clone este repositório
-$ git clone https://github.com/anderson-front/crud_escola.git
+$ git clone https://github.com/anderson-front/sistema_pontos_funcionarios.git
 
 # Projeto Salvo na master do GitHub
 # php artisan serve
 # A aplicação será aberta na porta:8000 - acesse http://127.0.0.1:8000/
-# DB_DATABASE=controle_alunos
+# DB_DATABASE=saldo_6
 # DB_USERNAME=root
 
 ---
@@ -96,18 +92,19 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Boostrap](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css)**
 -   **[Laravel Framework 7.30.4](https://laravel.com/docs/7.x)**
 -   **[XAMPP Version: 7.2.34]
+-   **[XAMP Control Panel v3.2.4]
+-   **[Version Php 7.3.31]
 
 ---
 
 ## 👨‍💻 Contribuidores
 
 💜 Um super thanks 👏 para Felipe, grande incentivador e amigo que tive o provilégio de trabalhar na última empresa do qual aprendi várias coisas legais :)
-E um super Obrigado a PC4 pela iniciativa e pelo tempo que disponibilizou para eu tentar completar esse desafio.
+E um super Obrigado a Nano Incub pela iniciativa e pelo tempo que disponibilizou para eu  completar esse desafio.
 
 ---
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Replicado com ❤️ por Anderson Santos, Feito por Thiago Marinho 👋🏽 [Entre em contato!](https://www.linkedin.com/in/anderson-santos-dev-front-back/)
 
