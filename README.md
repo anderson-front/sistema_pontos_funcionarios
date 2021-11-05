@@ -103,8 +103,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 E um super Obrigado a Nano Incub pela iniciativa e pelo tempo que disponibilizou para eu  completar esse desafio.
 
 ---
-## 📝 Licença
-
 
 Replicado com ❤️ por Anderson Santos, Feito por Thiago Marinho.
 
